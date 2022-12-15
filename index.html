@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+</head>
+<body>
+  <h1>Metric Converter</h1>
+    <table>
+        <tr>
+          <td>
+            <select id="fu">
+              <option>Select a unit</option>
+              <option value="1">feet</option>
+              <option value="2">meters</option>
+              <option value="3">liters</option>
+              <option value="4">kilometers</option>
+            </select>
+          </td>
+          <td>
+            <select id="su">
+              <option>Select a unit</option>
+              <option value="1">feet</option>
+              <option value="2">meters</option>
+              <option value="3">liters</option>
+              <option value="4">kilometers</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="text" id="fv"></td>
+          <td><input type="text" id="sv"></td>
+        </tr>
+        <tr>
+          <td colspan="3"><input type="button" id="result" value="Result" onclick="convert()"></td>
+        </tr>
+      </table>
+
+      <script src="./js/script.js"></script>
+
+</body>
+</html>
